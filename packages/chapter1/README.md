@@ -6,13 +6,18 @@
 
 #### b
 
-https://github.com/lhc0506/hanghae/assets/79738187/d9969147-9e87-40cc-b90d-f1e4561a799a
+
+
+https://github.com/lhc0506/hanghae/assets/79738187/2568c0e4-ddac-4ffd-9134-d3984cebbadb
+
+
 
 #### c
 
 | beforre                                                                                            | after                                                                                             |
 | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| ![before](https://github.com/lhc0506/hanghae/assets/79738187/31f3d444-bbe7-4959-8c3b-5655c5dfd1b6) | ![after](https://github.com/lhc0506/hanghae/assets/79738187/af4ddf3a-f1db-4b20-9952-40500c070742) |
+| ![before](https://github.com/lhc0506/hanghae/assets/79738187/6c196ad4-c96d-4d83-a531-28c2f40be23c) | ![after](https://github.com/lhc0506/hanghae/assets/79738187/89bccfc6-6e8e-4af6-8181-e34770019c54) |
+
 
 ### 생각해볼것들
 
