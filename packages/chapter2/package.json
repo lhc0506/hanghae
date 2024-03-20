@@ -11,7 +11,10 @@
     "test:c": "vitest src/__tests__/MyReact.test.js"
   },
   "devDependencies": {
-    "vitest": "^1.4.0",
-    "jsdom": "^24.0.0"
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.5",
+    "vitest": "^1.4.0"
   }
 }
