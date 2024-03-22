@@ -39,7 +39,7 @@ export function createHooks(callback) {
       states[index] = {value: fn(), refs};
     }
 
-    return states[index];
+    return states[index].value;
   };
 
   const resetContext = () => {

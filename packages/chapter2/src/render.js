@@ -47,7 +47,7 @@ export function render(parent, newNode, oldNode, index = 0) {
   //   종료
   if (!newNode && oldNode) {
     parent.childNodes[index].remove();
-    return;
+    return {parent, index};
   }
 
   // 2. 만약 newNode가 있고 oldNode가 없다면
@@ -56,7 +56,7 @@ export function render(parent, newNode, oldNode, index = 0) {
   if (newNode && !oldNode) {
     const newElement = createElement(newNode);
     parent.appendChild(newElement);
-    return;
+    return {newNode, index};
   }
 
   // 3. 만약 newNode와 oldNode 둘 다 문자열이고 서로 다르다면
@@ -67,7 +67,7 @@ export function render(parent, newNode, oldNode, index = 0) {
       const newElement = createElement(newNode);
       parent.childNodes[index].replaceWith(newElement);
     }
-    return;
+    return {parent, index};
   }
 
   // 4. 만약 newNode와 oldNode의 타입이 다르다면
@@ -76,7 +76,7 @@ export function render(parent, newNode, oldNode, index = 0) {
   if (newNode.type !== oldNode.type) {
     const newElement = createElement(newNode);
     parent.childNodes[index].replaceWith(newElement);
-    return;
+    return {parent, index};
   }
 
   // 5. newNode와 oldNode에 대해 updateAttributes 실행
