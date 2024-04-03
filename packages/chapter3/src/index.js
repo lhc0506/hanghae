@@ -14,7 +14,7 @@ root.render(
         <title>Hello World!!!!</title>
         <meta name="description" content={'this is description'} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://example.com/page.html" />
+        <meta property="og:url" content="https://hanghae-iota.vercel.app/" />
         <meta property="og:title" content="Content Title" />
         <meta
           property="og:image"
